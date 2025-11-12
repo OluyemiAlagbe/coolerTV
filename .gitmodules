@@ -1,0 +1,9 @@
+[submodule "repo/omega/addons/pvr.iptvsimple"]
+	path = repo/omega/addons/pvr.iptvsimple
+	url = https://github.com/kodi-pvr/pvr.iptvsimple.git
+[submodule "repo/omega/addons/pvr.plutotv"]
+	path = repo/omega/addons/pvr.plutotv
+	url = https://github.com/kodi-pvr/pvr.plutotv.git
+[submodule "repo/omega/addons/skin.arctic.zephyr.2.resurrection.mod"]
+	path = repo/omega/addons/skin.arctic.zephyr.2.resurrection.mod
+	url = https://github.com/DenDyGH/skin.arctic.zephyr.2.resurrection.mod.git
