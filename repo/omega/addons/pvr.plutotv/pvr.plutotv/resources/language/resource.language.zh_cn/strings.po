@@ -1,0 +1,84 @@
+# Kodi Media Center language file
+# Addon Name: PVR pluto.tv Client
+# Addon id: pvr.plutotv
+# Addon Provider: Team Kodi
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"PO-Revision-Date: 2025-08-27 06:16+0000\n"
+"Last-Translator: wabisabi926 <liwenliang926@163.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-add-ons-pvr-clients/pvr-plutotv/zh_Hans/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13\n"
+
+msgctxt "Addon Summary"
+msgid "Pluto.tv PVR Client"
+msgstr "Pluto.tv PVR 客户端"
+
+msgctxt "Addon Description"
+msgid "Pluto.tv PVR Client. Note: This is not an official pluto.tv add-on and not related to pluto.tv. It was developed by volunteers."
+msgstr "Pluto.tv PVR 客户端。注意：这不是官方的 pluto.tv 附加组件，与 pluto.tv 无关。它是由志愿者开发的。"
+
+msgctxt "#30001"
+msgid "Playback"
+msgstr "播放"
+
+msgctxt "#30002"
+msgid "Channels"
+msgstr "频道"
+
+msgctxt "#30008"
+msgid "First channel number"
+msgstr "第一个频道编号"
+
+msgctxt "#30009"
+msgid "Workaround for broken streams (requires inputstream.adaptive > 21.4.5)"
+msgstr "断流的解决方法（要求 inputstream.adaptive > 21.4.5）"
+
+msgctxt "#30010"
+msgid "Coloured channel logos"
+msgstr "彩色频道徽标"
+
+msgctxt "#30040"
+msgid "Debug"
+msgstr "调试"
+
+msgctxt "#30041"
+msgid "SID"
+msgstr "SID"
+
+msgctxt "#30042"
+msgid "Device ID"
+msgstr "设备 ID"
+
+msgctxt "#30100"
+msgid "Category containing playback settings"
+msgstr "包含播放设置的类别"
+
+msgctxt "#30101"
+msgid "Enable special stream handling to avoid hangs during playback."
+msgstr "启用特殊数据流处理，避免播放过程中出现卡顿。"
+
+msgctxt "#30200"
+msgid "Category containing channel settings"
+msgstr "包含频道设置的类别"
+
+msgctxt "#30201"
+msgid "The number for the first channel. Useful if you have multiple PVR clients enabled - to group the channels from the different clients."
+msgstr "第一个频道的编号。如果启用了多个 PVR 客户端，则可将不同客户端的频道分组。"
+
+msgctxt "#30202"
+msgid "Use coulored channel logos, if available."
+msgstr "如果可用，请使用彩色通道徽标。"
+
+msgctxt "#30300"
+msgid "Category containing debug settings"
+msgstr "包含调试设置的类别"
+
+#~ msgctxt "#30001"
+#~ msgid "General"
+#~ msgstr "常规"

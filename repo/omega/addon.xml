@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.coolertv" 
+       name="coolerTV Custom Kodi Build" 
+       version="1.0.0" 
+       provider-name="coolitis">
+    <extension point="xbmc.addon.repository" name="coolerTV Build">
+        <dir>
+            <info compressed="false">addons.xml</info>
+            <checksum>addons.xml.md5</checksum>
+            <datadir zip="true">zips</datadir>
+        </dir>
+      <dir>
+    <info compressed="false">https://team-crew.github.io/addons.xml</info>
+    <checksum>https://team-crew.github.io/addons.xml.md5</checksum>
+    <datadir zip="true">https://team-crew.github.io/packages</datadir>
+  </dir>
+</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Free Movies, Live TV, EPG & Arctic Skin</summary>
+        <description>Custom Kodi 21 build with The Crew, Pluto TV, IPTV Simple, Arctic Zephyr 2.</description>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <website>https://github.com/coolitis/coolerTV</website>
+        <source>https://github.com/coolitis/coolerTV</source>
+      <dir>
+    <info compressed="false">https://team-crew.github.io/addons.xml</info>
+    <checksum>https://team-crew.github.io/addons.xml.md5</checksum>
+    <datadir zip="true">https://team-crew.github.io/packages</datadir>
+  </dir>
+</extension>
+</addon>
