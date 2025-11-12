@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # needed for gh-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate addons.xml
+        run: python _repo_xml_generator.py
+
+      - name: Create ZIPs
+        run: |
+          cd repo/omega
+          for d in addons/*/; do
+            name=$(basename "$d")
+            zip -r "zips/$name-1.0.0.zip" "$d" -x "*/.git*"
+          done
+          zip -r zips/repository.coolertv-1.0.0.zip addon.xml addons.xml addons.xml.md5 zips/ -x "addons/*"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
